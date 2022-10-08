@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(8, 13, 22);
+}
+#window {
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+#header {
+    position: absolute;
+    font-size: 3vw;
+    left: 7vw;
+    margin-top: 1vw;
+}
+#img {
+    max-width: 100%;
+}
+#search-div {
+    position: absolute;
+    top: 5vw;
+    left: 17vw;
+    display: flex;
+}
+#input {
+    font-size: 0.9vw;
+}
+#button {
+    width: 5vw;
+    height: 1.5vw;
+}
+#new-races-div {
+    /* height: 5vw;
+    width: 5vw; */
+    position: absolute;
+    top: 10vw;
+    left: 1vw;
+    display: -webkit-inline-box;
+}
+.race-cards {
+    height: 12vw;
+    width: 10vw;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    margin-right: 1vw;
+    position: relative;
+    transition: 0.3s;
+}
+
+.card-img {
+    width: inherit;
+    height: inherit;
+    left: 0vw;
+}
+.race-cards:hover {
+    opacity: 1;
+}
+.card-text {
+    position: absolute;
+    top: 9vw;
+    font-size: 1vw;
+    left: 3vw;
+}
+#burning-legion {
+    left: 1.7vw;
+}
+.btns {
+    padding: 1vw;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: lightslategray;
+    color: ghostwhite;
+    transition: 0.3s;
+}
+.btns:hover {
+    background-color: rgb(71, 78, 85);
+}
+
+.card-text:hover {
+    cursor: pointer;
+    color: rgb(47, 152, 47);
+    text-shadow: 3px 3px 3px black;
+}
+.info-div {
+    position: absolute;
+    width: 60vw;
+    height: 23vw;
+    background-color: black;
+    color: white;
+    display: block;
+    top: 23vw;
+    left: 1vw;
+    opacity: 0.7;
+    border-radius: 10%;
+}
